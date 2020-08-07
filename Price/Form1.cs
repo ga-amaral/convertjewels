@@ -26,10 +26,9 @@ namespace Price
 
             Calc calc = new Calc(kbless, item);
 
-            dgPrices.Rows[0].Cells["BlessPrice"].Value = calc.BlessValue().ToString("F2");
-            dgPrices.Rows[0].Cells["PPValue"].Value = calc.PayPal().ToString("F2");
-            dgPrices.Rows[0].Cells["Tax"].Value = calc.Tax().ToString("F2");
-            dgPrices.Rows[0].Cells["Total"].Value = calc.TotalValue().ToString("F2");
+            //Adiciona as linhas separadinhas
+            dgPrices.Rows.Add(calc.BlessValue().ToString("F2"), calc.PayPal().ToString("F2"), calc.Tax().ToString("F2"), calc.TotalValue().ToString("F2"));
+            
             dgPrices.Update();
         }
 

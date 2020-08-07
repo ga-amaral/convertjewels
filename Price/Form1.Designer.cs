@@ -65,7 +65,7 @@
             this.dgPrices.RowHeadersWidth = 50;
             this.dgPrices.RowTemplate.Height = 30;
             this.dgPrices.RowTemplate.ReadOnly = true;
-            this.dgPrices.Size = new System.Drawing.Size(450, 50);
+            this.dgPrices.Size = new System.Drawing.Size(450, 122);
             this.dgPrices.TabIndex = 0;
             // 
             // BlessPrice
@@ -133,7 +133,7 @@
             // btnCalculate
             // 
             this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(93, 234);
+            this.btnCalculate.Location = new System.Drawing.Point(92, 292);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(127, 39);
             this.btnCalculate.TabIndex = 5;
@@ -144,7 +144,7 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.Location = new System.Drawing.Point(253, 234);
+            this.btnCancel.Location = new System.Drawing.Point(252, 292);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(127, 39);
             this.btnCancel.TabIndex = 6;
@@ -166,7 +166,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(347, 283);
+            this.label4.Location = new System.Drawing.Point(346, 341);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(117, 13);
             this.label4.TabIndex = 8;
@@ -177,7 +177,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
-            this.ClientSize = new System.Drawing.Size(476, 305);
+            this.ClientSize = new System.Drawing.Size(476, 372);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCancel);
